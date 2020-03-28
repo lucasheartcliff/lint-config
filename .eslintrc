@@ -1,0 +1,19 @@
+{
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "ignorePatterns": ["temp.js", "node_modules/"],
+    "rules": {
+        "prettier/prettier": "error",
+        "indent": ["error", 2],
+    }
+}
